@@ -1,0 +1,24 @@
+.specials {
+    margin-bottom: 60px;
+}
+.specials-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.specials-header h2 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #333;
+}
+
+.specials-list {
+    display: flex;
+    gap: 20px;
+}
+
+.specials-list .special-card {
+    flex-basis: 33.33%;
+}

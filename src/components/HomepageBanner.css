@@ -1,0 +1,46 @@
+.homepage-banner {
+    background-color: #495E57;
+    padding: 20px 0;
+    margin-bottom: 160px;
+}
+
+.homepage-banner-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+.banner-content h1 {
+    font-size: 48px;
+    color: #F4CE14;
+    margin-bottom: 10px;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+    color: #EDEFEE;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #EDEFEE;
+    max-width: 290px;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    max-width: 355px;
+    min-width: 355px;
+    height: 355px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.banner-image img {
+    width: 100%;
+}

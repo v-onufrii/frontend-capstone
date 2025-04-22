@@ -1,0 +1,48 @@
+.special-card {
+    background-color: #edefee;
+    border-radius: 10px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.special-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    min-height: 230px;
+}
+
+.special-card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 1;
+}
+
+.special-card-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.special-card-price {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #EE9972;
+}
+
+.special-card-deliver {
+    margin-top: auto;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.special-card-deliver:hover {
+    text-decoration: underline;
+}

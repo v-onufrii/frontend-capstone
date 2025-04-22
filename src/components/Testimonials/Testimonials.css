@@ -1,0 +1,20 @@
+.testimonials {
+    padding: 60px 0;
+    margin-bottom: 100px;
+}
+
+.testimonials-title {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials-list {
+    display: flex;
+    gap: 20px;
+}
+
+.testimonials-list .testimonial-card {
+    flex: 1 1 25%;
+}

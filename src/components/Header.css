@@ -1,0 +1,15 @@
+.header {
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+}
+
+.header-logo {
+    width: 215px;
+    margin-right: auto;
+}
+
+.header-logo  img {
+    width: 100%;
+    max-width: 150px;
+}

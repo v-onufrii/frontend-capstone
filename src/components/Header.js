@@ -1,11 +1,13 @@
-import Nav from "./Nav";
-import logo from "../assets/logo.png";
+import './Header.css';
+import NavBar from "./NavBar";
 
 const Header = () => {
     return (
-        <header>
-            <img src={logo} alt="Little Lemon" />
-            <Nav />
+        <header className='header section-holder'>
+            <div className='header-logo'>
+                <img src={require("../assets/Logo.png")} alt="Little Lemon" />
+            </div>
+            <NavBar />
         </header>
     )
 }

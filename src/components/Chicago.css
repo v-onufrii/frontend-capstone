@@ -1,0 +1,55 @@
+.chicago {
+    padding: 200px 0;
+    background-color: #495E57;
+    margin-bottom: 100px;
+}
+.chicago-inner {
+    display: flex;
+    gap: 40px;
+}
+.chicago-content {
+    flex: 1 1 50%;
+}
+.chicago-content {
+    h2 {
+        font-size: 48px;
+        color: #F4CE14;
+    }
+
+    h3 {
+        font-size: 36px;
+        color: #EDEFEE;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #EDEFEE;
+        margin-bottom: 20px;
+    }
+}
+.chicago-images {
+    flex: 1 1 50%;
+    position: relative;
+}
+
+.chicago-images img {
+    height: 275px;
+
+}
+
+.chicago-image-1 {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.chicago-image-2 {
+    position: absolute;
+    top: 100px;
+    right: -60px;
+    border-radius: 16px;
+    overflow: hidden;
+}
